@@ -1,10 +1,40 @@
 <html>
 <head>
-    <title>Logged In Page</title>
-</head>
+    <title>Logged In</title>
+    <link rel="stylesheet" href="styles.css"> </head>
 <body>
-    <h1>Welcome to Our Website!</h1>
-    <p>You are currently logged in.</p>
-    <a href="logout.html">Sign Out</a>
+    <div class="container">
+        <h1>Welcome to Our Website!</h1>
+        <p>You are currently logged in.</p>
+        <a href="logout.html" class="sign-out-button">Sign Out</a>
+    </div>
 </body>
 </html>
+<style>
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+.sign-out-button {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;   
+
+    border-radius: 5px;
+}
+
+</style>
